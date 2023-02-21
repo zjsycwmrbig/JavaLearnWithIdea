@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 //        test1();
-
+        System.out.println(Student.SEX);
     }
     public static void test1() {
         var Mynum = new Test1();
