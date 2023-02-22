@@ -1,12 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 //        test1();
-        System.out.println(Student.SEX);
+        Man person = new Student();
+        person.run();
     }
     public static void test1() {
         var Mynum = new Test1();
         System.out.println(Mynum.GetNumber(4));
     }
+
 
     /**
      * 这是一个函数
